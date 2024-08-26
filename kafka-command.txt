@@ -1,0 +1,11 @@
+1) to create topic
+  kafka-topics.bat --create --topic my-topic --bootstrap-server localhost:9092
+2) list of all the topics
+
+3) create message 
+   kafka-console-producer.bat --topic my-topic --bootstrap-server localhost:9092
+    then enter your message on the command line.
+	
+4)consume message
+    kafka-console-consumer.bat --topic my-topic --from-beginning --bootstrap-server localhost:9092
+	
